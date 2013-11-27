@@ -1,0 +1,2 @@
+class BespokeController < ApplicationController
+end

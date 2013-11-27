@@ -1,0 +1,2 @@
+class IdstyleController < ApplicationController
+end

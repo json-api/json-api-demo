@@ -1,0 +1,2 @@
+class UrlstyleController < ApplicationController
+end
