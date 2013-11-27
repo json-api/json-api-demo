@@ -1,4 +1,4 @@
-class IdstyleController < ApplicationController
+class Urlstyle::PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
@@ -15,6 +15,7 @@ class IdstyleController < ApplicationController
     render json: @post
   end
 
+=begin
   # POST /posts
   # POST /posts.json
   def create
@@ -47,4 +48,5 @@ class IdstyleController < ApplicationController
 
     head :no_content
   end
+=end
 end

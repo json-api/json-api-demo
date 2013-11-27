@@ -1,4 +1,4 @@
-class UrlstyleController < ApplicationController
+class Bespoke::PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
@@ -15,6 +15,7 @@ class UrlstyleController < ApplicationController
     render json: @post
   end
 
+=begin
   # POST /posts
   # POST /posts.json
   def create
@@ -47,4 +48,5 @@ class UrlstyleController < ApplicationController
 
     head :no_content
   end
+=end
 end
